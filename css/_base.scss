@@ -1,0 +1,24 @@
+// font-family
+$font: 'Rubik', sans-serif;
+// font-size
+$normal-size: 1.6rem;
+// primary colors
+$sub-heading: hsl(276, 100%, 81%);
+$left-chat: hsl(276, 55%, 52%);
+$right-chat: hsl(271, 15%, 43%);
+$placeholder-color: hsl(206, 6%, 79%);
+$main-heading: hsl(271, 36%, 24%);
+$paragraph: hsl(270, 7%, 64%);
+// gradients
+$light-gradient: hsl(293, 100%, 63%);
+$dark-gradient: hsl(264, 100%, 61%);
+// secondary colors
+$white: hsl(0, 0%, 100%);
+$app-background: hsl(270, 20%, 96%);
+$submit-button-background: hsl(271, 36%, 24%);
+$radio-button-outline: hsl(289, 100%, 72%);
+
+@mixin message($text: $left-chat, $bg: $sub-heading) {
+	color: $text;
+	background: $bg;
+}
