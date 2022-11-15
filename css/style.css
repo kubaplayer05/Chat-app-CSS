@@ -273,7 +273,7 @@ svg {
   }
   .container {
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .desc-section {
     margin-top: 50px;
